@@ -1,5 +1,5 @@
 import './App.css'
-import img from './assets/hero-img.jpg'
+import logo from './assets/logo.svg'
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
       <header>
         <nav className='navbar'>
           <a href="#" className='logo'>
-            <h1>fiverr</h1>
+            <img src={logo} alt="img" />
           </a>
           <ul className='menu-links'>
             <li><a href="#">Fiverr Business</a></li>
@@ -48,3 +48,4 @@ function App() {
 }
 
 export default App
+
